@@ -127,3 +127,22 @@ body {
   left: 10%;
   background: #fff;
 }
+
+.fb,
+.insta {
+  filter: invert(1);
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-ul li {
+  padding: 1em;
+}
+.footer-ul a {
+  text-decoration: none;
+  font-size: 0.8em;
+  cursor: pointer;
+}
