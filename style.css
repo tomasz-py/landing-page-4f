@@ -3,14 +3,6 @@
 html,
 body,
 div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
 img,
 ol,
 ul,
@@ -22,8 +14,6 @@ section {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -35,4 +25,73 @@ ul {
 /* STYLE */
 body {
   background: #ffffff;
+  font-family: "LabGrotesque", sans-serif;
+}
+
+.app-wrapper {
+  padding: 1em;
+}
+
+.header {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.logo > * {
+  width: 156px;
+}
+
+/* SECTION 1 */
+
+.section-1-who img {
+  width: 47%;
+  float: left;
+  height: 288px;
+}
+
+.section-1-img img {
+  height: 288px;
+  width: 47%;
+  float: right;
+}
+
+.section-1-brand {
+  display: inline-block;
+}
+
+/* SECTION 2 */
+
+#section-2 img {
+  width: 100%;
+}
+
+.section-2-img {
+  position: relative;
+}
+
+.gts {
+  display: block;
+  position: absolute;
+  width: 30%;
+  padding: 10px 20px;
+  bottom: 25%;
+  transform: translateX(-50%);
+  left: 50%;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.gts:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* SECTION 3 */
+
+#section-3 img {
+  width: 100%;
 }
