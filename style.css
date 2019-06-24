@@ -237,6 +237,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 2em;
 }
 
 .person {
@@ -247,6 +248,11 @@ h2 {
 
 .person img {
   width: 100%;
+  object-fit: cover;
+  width: 203px;
+  height: 299px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .person-name {
@@ -378,9 +384,8 @@ h2 {
   }
 
   .people {
-    margin-top: 2em;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     grid-column: 1/13;
   }
 
