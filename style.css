@@ -43,6 +43,11 @@ body {
   width: 156px;
 }
 
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /* SECTION 1 */
 
 .section-1-who img {
@@ -114,9 +119,6 @@ body {
 }
 
 /* SECTION 4 */
-#section-4 h1 {
-  text-align: center;
-}
 
 .people {
   display: flex;
@@ -168,6 +170,10 @@ body {
   .app-wrapper {
     display: grid;
     grid-template-columns: 1fr minmax(768px, 1350px) 1fr;
+  }
+
+  h2 {
+    text-align: left;
   }
 
   .content-wrapper {
@@ -245,7 +251,7 @@ body {
     grid-column: 3/11;
   }
 
-  #section-4 h1 {
+  #section-4 h2 {
     text-align: left;
   }
 
@@ -253,7 +259,7 @@ body {
     grid-column: 1/13;
   }
 
-  #section-4 .content-wrapper h1,
+  #section-4 .content-wrapper h2,
   #section-4 .content-wrapper p {
     grid-column: 3/11;
   }
