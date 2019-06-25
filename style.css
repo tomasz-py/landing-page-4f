@@ -249,7 +249,7 @@ h2 {
 .person img {
   width: 100%;
   object-fit: cover;
-  width: 203px;
+  width: minmax(150px, 203px);
   height: 299px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -261,11 +261,11 @@ h2 {
   bottom: 20%;
   left: 10%;
   background: #fff;
+  text-transform: uppercase;
 }
 
 /* FOOTER */
-.fb,
-.insta {
+.footer-img {
   filter: invert(1);
 }
 
